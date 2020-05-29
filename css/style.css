@@ -1,0 +1,1285 @@
+html, body{
+    height:100%;
+  }
+  
+  body {
+      box-sizing: border-box;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .row {
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+  
+  
+  h1 {
+      font: normal 400 40px/46px "acta-display", serif;
+      padding: 0;
+      margin: 0px 0px 50px 0px;
+      color: #262b2e;
+      text-align: left;
+  }
+  
+  h2 {
+      font: normal 400 37px/44px "acta-display", serif;
+      padding: 0;
+      margin: 0px 0px 50px 0px;
+      color: #262b2e;
+  }
+  
+  h3 {
+      font: normal 600 23px/34px 'Poppins', serif;
+      letter-spacing: 0.5px;
+      margin: 0px 0px 50px 0px;
+      padding: 0;
+      display: block;
+      color: #262b2e;
+  }
+  
+  h3 span.italic {
+      font: italic 400 29px/38px "acta-display", serif;
+      color: #c0bcbc;
+  }
+  
+  footer h3 {
+      margin: 0px 0px 60px 0px;
+      display: block;
+  }
+  
+  h4 {
+      font: normal 600 19px/19px 'Poppins', serif;
+      letter-spacing: 0.5px;
+      margin: 0px;
+      padding: 0;
+      display: block;
+      color: #262b2e;
+  }
+  
+  .perks-item h4 {
+      margin: 0px 0px 30px 0px;
+  }
+  
+  h5 {
+      font: normal 700 12px/19px 'Poppins', serif;
+      letter-spacing: 3px;
+      display: block;
+      color: #c0bcbc;
+      margin: 0px -4px 0px 0px;
+      padding: 0px;
+      text-transform: uppercase;
+  }
+  
+  figcaption h5 {
+      margin: 0px -4px 10px 0px;
+  }
+  
+  
+  h6 {
+      font: normal 600 14px/14px 'Poppins', serif;
+      letter-spacing: 3px;
+      padding: 0;
+      margin: 0px 0px 15px 0px;
+      color: #f5aa95;
+      text-transform: uppercase;
+  }
+  
+  header h6 {
+      font: normal 600 15px/21px 'Poppins', serif;
+      letter-spacing: 3px;
+      padding: 0;
+      margin: 0px 0px 25px 0px;
+      color: #f5aa95;
+      text-align: left;
+      text-transform: uppercase;
+  }
+  
+  p {
+      font: normal 400 14px/28px 'Poppins', serif;
+      letter-spacing: 0.5px;
+      margin: 0px 0px 30px 0px;
+      padding: 0;
+      display: inline-block;
+      color: #a59d9d;
+      text-align: left;
+  
+  }
+  
+  p span.highlight {
+      background-color: #fff6cc;
+  }
+  
+  br.rwd-break {
+      display: none;
+  }
+  
+  a {
+      text-decoration: none;
+      cursor: pointer;
+  }
+  
+  a.button-link {
+      font: normal 700 14px/14px 'Poppins', serif;
+      letter-spacing: 5px;
+      color: #262b2e;
+      text-align: left;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      padding: 0px 20px 0px 0px;
+  }
+  
+  a.button-link span {
+      padding: 0px 0px 0px 60px;
+      position: relative;
+      z-index: 2;
+  }
+  
+  a.button-link:before {
+      position: relative;
+      top: 7px;
+      left: 0px;
+      width: 40px;
+      height: 2px;
+      display: block;
+      content: '';
+      background-color: #f5aa95;
+      -webkit-transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: 1;
+  }
+  
+  a.button-link i {
+      position: relative;
+      top: -1px;
+      left: 10px;
+      width: 5px;
+      height: 8px;
+      display: inline-block;
+      padding: 0px 0px 0px 10px;
+      margin:0;
+      background-image: url('../img/arrow.svg');
+      background-size: 5px 8px;
+      background-repeat: no-repeat;
+      background-position: center right;
+      -webkit-transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: 1;
+  }
+  
+  a.button-link:hover:before {
+      left: 100%;
+  }
+  
+  a.button-link:hover i {
+      left: 45px;
+  }
+  
+  .container-fluid {
+      box-sizing: border-box;
+      max-width: 1328px;
+      margin: 0 auto;
+      padding-left: 1rem;
+      padding-right: 1rem; 
+  }
+  
+  header {
+      width: 100%;
+      height: auto;
+  }
+  
+  header .container-fluid {
+      height: 100%;
+  }
+  
+  header .container-fluid .hero{
+      height: auto;
+      position: relative;
+      top: 48%;
+      transform: translateY(0%);
+      padding:65px 0px 0px 0px;
+  }
+  
+  header .container-fluid .hero span.static {
+      display: inline;
+  }	
+  
+  header .container-fluid .hero span.static br {
+      display: block;
+  }
+  
+  header .container-fluid .hero span.typed {
+      display: none;
+  }
+  
+  header .container-fluid .hero br {
+      display: none;
+  }
+  
+  .typed-cursor {
+      display: none;
+      opacity: 1;
+      -webkit-animation: blink 1s infinite;
+      -moz-animation: blink 1s infinite;
+      animation: blink 1s infinite;
+  }
+  
+  @keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
+  
+  @-webkit-keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
+  
+  @-moz-keyframes blink{
+      0% { opacity:1; }
+      50% { opacity:0; }
+      100% { opacity:1; }
+  }
+  
+  header aside {
+      position: relative;
+      width: 100%;
+      bottom: 0px;
+      margin: 0;
+      padding: 90px 0px 0px 0px;
+  }
+  
+  header aside .subscribe {
+      display: none;
+  }
+  
+  header aside form, footer aside form {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      border-bottom: 2px solid #262b2e;
+      margin: 0px 0px 15px 0px;
+  }
+  
+  .field-shift {
+      left: -9999px; position: absolute;
+  }
+  
+  header aside form input[type="email"], footer aside form input[type="email"] {
+      font: normal 600 18px/43px 'Poppins', serif;
+      color: #262b2e;
+      display: block;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      float: left;
+      clear: none;
+      box-sizing: border-box;
+      width: 200px;
+      height: 43px;
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  header aside form input[type="email"]::-webkit-input-placeholder, footer aside form input[type="email"]::-webkit-input-placeholder {
+      color: #262b2e;
+      opacity: 1;
+  }
+  
+  header aside form input[type="email"]::-moz-placeholder, footer aside form input[type="email"]::-moz-placeholder {
+      color: #262b2e;
+      opacity: 1;
+  }
+  
+  header aside form input[type="email"]:-ms-input-placeholder, footer aside form input[type="email"]:-ms-input-placeholder {
+      color: #262b2e;
+      opacity: 1;
+  }
+  
+  header aside form input[type="email"]:-moz-placeholder, footer aside form input[type="email"]:-moz-placeholder {
+      color: #262b2e;
+      opacity: 1;
+  }
+  
+  header aside form input[type="email"]:placeholder-shown, footer aside form input[type="email"]:placeholder-shown {
+      color: #262b2e;
+      opacity: 1;
+  }
+  
+  header aside form input[type="email"]:placeholder, footer aside form input[type="email"]:placeholder {
+      color: #262b2e;
+      opacity: 1;
+  }
+  
+  header aside form input[type="email"]:invalid, footer aside form input[type="email"]:invalid {
+      box-shadow: none;
+  }
+  
+  header aside form input[type="email"]:-moz-submit-invalid, footer aside form input[type="email"]:-moz-submit-invalid {
+      box-shadow: none;
+  }
+  
+  header aside form input[type="email"]:-moz-ui-invalid, footer aside form input[type="email"]:-moz-ui-invalid {
+      box-shadow:none;
+  }
+  
+  header aside form input[type="submit"], footer aside form input[type="submit"] {
+      display: none;
+  }
+  
+  header aside form label, footer aside form label {
+      float: left;
+      clear: none;
+      display: block;
+      width: 34px;
+      height: 31px;
+      margin: 7px 0px 7px 15px;
+      -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  header aside form label svg, footer aside form label svg {
+      position: relative;
+      top: 5px;
+      left: 0px;
+      fill: #262b2e;
+      cursor: pointer;
+      -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  header aside form label svg:hover, footer aside form label svg:hover {
+      fill: #f5aa95;
+  }
+  
+  header aside form input[type="email"]:focus + label svg, footer aside form input[type="email"]:focus + label svg{
+      left: 20px;
+  }
+  
+  header aside .follow {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      text-align: start;
+  }
+  
+  header aside .follow a {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0px  25px 15px 0px;
+      padding: 0px;
+      line-height: 0;
+  }
+  
+  footer aside .follow a {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0px  0px 20px 25px;
+      padding: 0px;
+      line-height: 0;
+  }
+  
+  header aside .follow a svg, footer aside .follow a svg {
+      fill: #262b2e;
+      -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+  header aside .follow a:hover svg, footer aside .follow a:hover svg {
+      fill: #f5aa95;
+  }
+  
+  main {
+      padding: 80px 0px 0px 0px;
+      margin: 0px;
+  }
+  
+  section.about {
+      padding: 0px 0px 90px 0px;
+      margin: 0px;
+  }
+  
+  section.projects {
+      padding: 0px 0px 120px 0px;
+  }
+  
+  section.projects figure img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      width: 100%;
+      margin: 0px 0px 30px 0px;
+  }
+  
+  section.projects .projects-grid div figure{
+      margin: 0px;
+  }
+  
+  section.projects .projects-grid div:nth-child(2) figure{
+      margin: 65px 0px 0px 0px;
+  }
+  
+  section.projects .projects-grid div:nth-child(3) figure{
+      margin: 65px 0px 0px 0px;
+  }
+  
+  section.projects .projects-grid div:nth-child(4) figure{
+      margin: 65px 0px 0px 0px;
+  }
+  
+  section.projects figure figcaption h4 {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+  }
+  
+  section.projects figure figcaption h4:before {
+      content: attr(data-letters);
+      position: absolute;
+      z-index: 2;
+      overflow: hidden;
+      color: #f5aa95;
+      white-space: nowrap;
+      width: 0%;
+      -webkit-transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /*width 0.4 0.4s*/
+      transition: width 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /*width 0.4 0.4s*/
+  }
+  
+  /*section.projects figure figcaption h4:after {
+      content: '';
+      position: absolute;
+      height: 3px;
+      width: 100%;
+      top: 50%;
+      right: 0;
+      margin-top: -1.5px;
+      background: #f5aa95;
+      transform: translateX(-101%);
+      -webkit-transform: translateX(-101%);
+      -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.7,0,0.3,1);
+      transition: transform 0.5s cubic-bezier(0.7,0,0.3,1);
+  }*/
+  
+  section.projects figure figcaption h4:hover:before, section.projects figure img:hover + figcaption h4:before {
+      width: 100%;
+  }
+  
+  /*section.projects figure figcaption h4:hover:after, section.projects figure img:hover + figcaption h4:after  { 
+      transform: translateX(101%);
+      -webkit-transform: translateX(101%);
+  }*/
+  
+  section.perks {
+      padding: 0px 0px 70px 0px;
+  
+  }
+  
+  section.perks .perks-item {
+      margin-bottom: 20px;
+  
+  }
+  
+  section.perks .perks-item .perks-img {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin: 0px 0px 25px 0px;
+  }
+  
+  section.perks .perks-item .perks-img img {
+      max-width: 53px;
+      height: auto;
+      position: relative;
+      bottom: 0px;
+  }
+  
+  footer {
+      padding: 0px 0px 40px 0px;
+  }
+  
+  footer aside {
+      position: relative;
+      width: 100%;
+      margin: 110px 0px 0px 0px;
+      padding: 0px;
+  }
+  
+  footer aside .subscribe {
+      display: block;
+  }
+  
+  footer aside .follow {
+      display: none;
+  }
+  
+  
+  
+  @media only screen and (min-width: 22em) and (max-height: 31em){
+      h1 {
+          font: normal 400 46px/50px "acta-display", serif;
+          margin: 0px 0px 45px 0px;
+      }
+  
+      header h6 {
+          font: normal 600 16px/22px 'Poppins', serif;
+          margin: 0px 0px 20px 0px;
+      }
+  
+  }
+  
+  @media only screen and (min-width: 37em) and (orientation:landscape)  {
+      .row {
+        margin-right: -1.8rem;
+        margin-left: -1.8rem;
+      }
+  
+      .col-xs,
+      .col-xs-1,
+      .col-xs-2,
+      .col-xs-3,
+      .col-xs-4,
+      .col-xs-5,
+      .col-xs-6,
+      .col-xs-7,
+      .col-xs-8,
+      .col-xs-9,
+      .col-xs-10,
+      .col-xs-11,
+      .col-xs-12,
+      .col-xs-offset-0,
+      .col-xs-offset-1,
+      .col-xs-offset-2,
+      .col-xs-offset-3,
+      .col-xs-offset-4,
+      .col-xs-offset-5,
+      .col-xs-offset-6,
+      .col-xs-offset-7,
+      .col-xs-offset-8,
+      .col-xs-offset-9,
+      .col-xs-offset-10,
+      .col-xs-offset-11,
+      .col-xs-offset-12 {
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;
+      }
+  
+      .container-fluid {
+          padding-left: 2rem;
+          padding-right: 2rem; 
+      }
+  
+  }
+  
+  @media only screen and (min-width: 37em) and (orientation:portrait)  {
+      .row {
+        margin-right: -1.8rem;
+        margin-left: -1.8rem;
+      }
+  
+      .col-xs,
+      .col-xs-1,
+      .col-xs-2,
+      .col-xs-3,
+      .col-xs-4,
+      .col-xs-5,
+      .col-xs-6,
+      .col-xs-7,
+      .col-xs-8,
+      .col-xs-9,
+      .col-xs-10,
+      .col-xs-11,
+      .col-xs-12,
+      .col-xs-offset-0,
+      .col-xs-offset-1,
+      .col-xs-offset-2,
+      .col-xs-offset-3,
+      .col-xs-offset-4,
+      .col-xs-offset-5,
+      .col-xs-offset-6,
+      .col-xs-offset-7,
+      .col-xs-offset-8,
+      .col-xs-offset-9,
+      .col-xs-offset-10,
+      .col-xs-offset-11,
+      .col-xs-offset-12 {
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;
+      }
+  
+      h1 {
+          font: normal 400 52px/62px "acta-display", serif;
+          margin: 0px 0px 70px 0px;
+      }
+  
+      h2 {
+          font: normal 400 46px/55px "acta-display", serif;
+          margin: 0px 0px 80px 0px;
+      }
+  
+      h3 {
+          font: normal 600 30px/42px 'Poppins', serif;
+          margin: 0px 0px 70px 0px;
+      }
+  
+      h3 span.italic {
+          font: italic 400 36px/47px "acta-display", serif;
+      }
+  
+      h4 {
+          font: normal 600 20px/20px 'Poppins', serif;
+      }
+  
+      .perks-item h4 {
+          margin: 0px 0px 30px 0px;
+      }
+  
+      h5 {
+          font: normal 700 13px/13px 'Poppins', serif;
+          letter-spacing: 4px;
+      }
+  
+      figcaption h5 {
+          margin: 0px -4px 15px 0px;
+      }
+  
+      h6 {
+          font: normal 600 14px/14px 'Poppins', serif;
+      }
+  
+  
+      header h6 {
+          font: normal 600 17px/17px 'Poppins', serif;
+          margin: 0px 0px 25px 0px;
+      }
+  
+      p {
+          margin: 0px 0px 30px 0px;
+      }
+  
+      header {
+          width: 100%;
+          height: 100%;
+      }
+  
+      .container-fluid {
+          padding-left: 3rem;
+          padding-right: 3rem; 
+      }
+  
+      header .container-fluid .hero{
+          height: 352px;
+          top: 48%;
+          transform: translateY(-50%);
+          padding: 0;
+      }
+  
+      header .container-fluid .hero span.static {
+          display: none;
+      }	
+  
+      header .container-fluid .hero span.typed {
+          display: inline;
+      }
+  
+      header .container-fluid .hero br {
+          display: block;
+      }
+  
+      .typed-cursor {
+          display: inline;
+      }
+  
+      header aside {
+          position: absolute;
+          bottom: 0px;
+          padding: 0px 0px 50px 0px;
+      }
+  
+      header aside form input[type="email"], footer aside form input[type="email"] {
+          width: 240px;
+      }
+  
+      header aside .follow {
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          text-align: end;
+      }
+  
+      header aside .follow a{
+          margin: 0px 0px 20px 25px;
+      }
+  
+      footer aside form {
+          margin: 0px 0px 20px 0px;
+      }
+  
+      main {
+          padding: 80px 0px 0px 0px;
+      }
+  
+      section.about {
+          padding: 0px 0px 140px 0px;
+      }
+  
+      section.projects {
+          padding: 0px 0px 170px 0px;
+      }
+  
+      section.projects figure img {
+          margin: 0px 0px 45px 0px;
+      }
+  
+      section.projects .projects-grid div:nth-child(2) figure{
+          margin: 80px 0px 0px 0px;
+      }
+  
+      section.projects .projects-grid div:nth-child(3) figure{
+          margin: 80px 0px 0px 0px;
+      }
+  
+      section.projects .projects-grid div:nth-child(4) figure{
+          margin: 80px 0px 0px 0px;
+      }
+  
+      section.perks {
+          padding: 0px 0px 170px 0px;
+      }
+  
+      section.perks .perks-item {
+          margin-bottom: 35px;
+      }
+  
+      section.perks .perks-item .perks-img {
+          margin: 0px 0px 30px 0px;
+      }
+          
+      footer h3 {
+          margin: 0px 0px 80px 0px;
+      }
+  
+      footer {
+          padding: 0px 0px 50px 0px;
+      }
+  
+      footer aside {
+          margin: 220px 0px 0px 0px;
+      }
+  
+  }
+  
+  @media only screen and (min-width: 48em) {
+      .perks-item h4 {
+          margin: 0px 0px 40px 0px;
+      }
+  
+      br.rwd-break {
+          display: block;
+      }
+  
+      header aside .subscribe {
+          display: block;
+      }
+  
+      main {
+          padding: 120px 0px 0px 0px;
+      }
+  
+      section.about {
+          padding: 0px 0px 160px 0px;
+      }
+  
+      section.projects {
+          padding: 0px 0px 190px 0px;
+      }
+  
+      section.projects .projects-grid div figure{
+          margin: 0px;
+      }
+  
+      section.projects .projects-grid div:nth-child(2) figure{
+          margin: 52.2243% 0px 0px 0px;
+      }
+  
+      section.projects .projects-grid div:nth-child(3) figure{
+          margin: -69.6324% 0px 0px 0px;
+      }
+  
+      section.projects .projects-grid div:nth-child(4) figure{
+          margin: 30.3398% 0px 0px 0px;
+      }
+  
+      section.perks {
+          padding: 0px 0px 150px 0px;
+      }
+  
+      section.perks .perks-item {
+          margin-bottom: 80px;
+      }
+  
+      section.perks .perks-item .perks-img {
+          width: 53px;
+          height: 53px;
+          margin: 0px 0px 35px 0px;
+      }
+  
+      section.perks .perks-item .perks-img img {
+          position: absolute;
+      }
+  
+      footer aside .follow {
+          display: block;
+      }
+  
+      footer aside {
+          margin: 220px 0px 0px 0px;
+      }
+  }
+  
+  @media only screen and (min-width: 48em) and (orientation:landscape) {
+      h1 {
+          font: normal 400 52px/62px "acta-display", serif;
+          margin: 0px 0px 60px 0px;
+      }
+  
+      h2 {
+          font: normal 400 46px/55px "acta-display", serif;
+          margin: 0px 0px 80px 0px;
+      }
+  
+      h3 {
+          font: normal 600 30px/42px 'Poppins', serif;
+          margin: 0px 0px 70px 0px;
+      }
+  
+      h3 span.italic {
+          font: italic 400 36px/47px "acta-display", serif;
+      }
+  
+      h4 {
+          font: normal 600 20px/20px 'Poppins', serif;
+      }
+  
+      .perks-item h4 {
+          margin: 0px 0px 40px 0px;
+      }
+  
+      h5 {
+          font: normal 700 13px/13px 'Poppins', serif;
+          letter-spacing: 4px;
+      }
+  
+      figcaption h5 {
+          margin: 0px -4px 15px 0px;
+      }
+  
+      h6 {
+          font: normal 600 14px/14px 'Poppins', serif;
+      }
+  
+  
+      header h6 {
+          font: normal 600 17px/17px 'Poppins', serif;
+          margin: 0px 0px 25px 0px;
+      }
+  
+      p {
+          margin: 0px 0px 30px 0px;
+      }
+  
+      header {
+          width: 100%;
+          height: 100%;
+      }
+  
+      .container-fluid {
+          padding-left: 3rem;
+          padding-right: 3rem; 
+      }
+  
+      header .container-fluid .hero{
+          height: 352px;
+          top: 48%;
+          transform: translateY(-50%);
+          padding: 0;
+      }
+  
+      header .container-fluid .hero span.static {
+          display: none;
+      }	
+  
+      header .container-fluid .hero span.typed {
+          display: inline;
+      }
+  
+      header .container-fluid .hero br {
+          display: block;
+      }
+  
+      .typed-cursor {
+          display: inline;
+      }
+  
+      header aside {
+          position: absolute;
+          bottom: 0px;
+          padding: 0px 0px 40px 0px;
+      }
+  
+      header aside form, footer aside form {
+          margin: 0px 0px 15px 0px;
+      }
+  
+      header aside form input[type="email"], footer aside form input[type="email"] {
+          width: 240px;
+      }
+  
+      header aside .follow {
+          -webkit-box-pack: end;
+          -ms-flex-pack: end;
+          justify-content: flex-end;
+          text-align: end;
+      }
+  
+      header aside .follow a, footer aside .follow a{
+          margin: 0px 0px 15px 25px;
+      }
+  
+      main {
+          padding: 120px 0px 0px 0px;
+      }
+  
+      section.about {
+          padding: 0px 0px 140px 0px;
+      }
+  
+      section.projects {
+          padding: 0px 0px 170px 0px;
+      }
+  
+      section.projects figure img {
+          margin: 0px 0px 40px 0px;
+      }
+  
+      section.perks {
+          padding: 0px 0px 110px 0px;
+      }
+  
+      section.perks .perks-item {
+          margin-bottom: 70px;
+      }
+  
+      section.perks .perks-item .perks-img {
+          width: 53px;
+          height: 53px;
+          margin: 0px 0px 40px 0px;
+      }
+  
+      section.perks .perks-item .perks-img img {
+          position: absolute;
+      }
+  
+  
+      footer h3 {
+          margin: 0px 0px 80px 0px;
+      }
+  
+      footer {
+          padding: 0px 0px 40px 0px;
+      }
+  
+      footer aside {
+          margin: 120px 0px 0px 0px;
+      }
+  }
+  
+  @media only screen and (min-width: 64em) and (min-height: 38em) and (orientation:landscape) {
+      h1 {
+          font: normal 400 60px/72px "acta-display", serif;
+          margin: 0px 0px 60px 0px;
+      }
+  
+      h2 {
+          font: normal 400 52px/62px "acta-display", serif;
+          margin: 0px 0px 100px 0px;
+      }
+  
+      h3 {
+          font: normal 600 32px/46px 'Poppins', serif;
+          letter-spacing: 0.5px;
+          margin: 0px 0px 90px 0px;
+      }
+  
+      h3 span.italic {
+          font: italic 400 39px/52px "acta-display", serif;
+      }
+  
+      h4 {
+          font: normal 600 24px/24px 'Poppins', serif;
+      }
+  
+      .perks-item h4 {
+          margin: 0px 0px 45px 0px;
+      }
+  
+      figcaption h5 {
+          margin: 0px -4px 30px 0px;
+      }
+  
+      h6 {
+          font: normal 600 14px/14px 'Poppins', serif;
+          margin: 0px 0px 20px 0px;
+      }
+  
+      header h6 {
+          font: normal 600 18px/18px 'Poppins', serif;
+          margin: 0px 0px 20px 0px;
+      }
+  
+      p {
+          margin: 0px 0px 40px 0px;
+      }
+  
+      .container-fluid {
+          max-width: 1228px;
+          padding-left: 2rem;
+          padding-right: 2rem; 
+      }
+  
+      header .container-fluid .hero{
+          height: auto;
+          top: 41.5%;
+          padding: 0;
+      }
+  
+      header aside {
+          padding: 0px 0px 50px 0px;
+      }
+  
+      header aside form,  footer aside form{
+          margin: 0px 0px 15px 0px;
+      }
+  
+      header aside .follow a, footer aside .follow a{
+          margin: 0px 0px 15px 25px;
+      }
+  
+      main {
+          padding: 130px 0px 0px 0px;
+      }
+  
+      section.about {
+          padding: 0px 0px 170px 0px;
+      }
+  
+      section.projects {
+          padding: 0px 0px 210px 0px;
+      }
+  
+      section.projects figure img {
+          margin: 0px 0px 60px 0px;
+      }
+  
+      section.perks {
+          padding: 0px 0px 120px 0px;
+      }
+  
+      section.perks .perks-item {
+          margin-bottom: 90px;
+      }
+  
+      section.perks .perks-item .perks-img {
+          margin: 0px 0px 40px 0px;
+      }
+  
+      footer h3 {
+          margin: 0px 0px 80px 0px;
+      }
+  
+      footer {
+          padding: 0px 0px 50px 0px;
+      }
+  
+      footer aside {
+          margin: 150px 0px 0px 0px;
+      }
+  
+  }
+  
+  @media only screen and (min-width: 86em) {
+      h1 {
+          font: normal 400 68px/85px "acta-display", serif;
+          margin: 0px 0px 100px 0px;
+      }
+  
+      h2 {
+          font: normal 400 55px/65px "acta-display", serif;
+          margin: 0px 0px 100px 0px;
+      }
+  
+      h3 {
+          font: normal 600 36px/50px 'Poppins', serif;
+          letter-spacing: 0.5px;
+          margin: 0px 0px 90px 0px;
+      }
+  
+      h3 span.italic {
+          font: italic 400 43px/56px "acta-display", serif;
+      }
+  
+      h4 {
+          font: normal 600 24px/24px 'Poppins', serif;
+      }
+  
+      .perks-item h4 {
+          margin: 0px 0px 45px 0px;
+      }
+  
+      h5 {
+          font: normal 700 14px/14px 'Poppins', serif;
+      }
+  
+      figcaption h5 {
+          margin: 0px -4px 30px 0px;
+      }
+  
+      h6 {
+          font: normal 600 14px/14px 'Poppins', serif;
+          margin: 0px 0px 20px 0px;
+      }
+  
+      header h6 {
+          font: normal 600 20px/20px 'Poppins', serif;
+          margin: 0px 0px 40px 0px;
+      }
+  
+      .container-fluid {
+          max-width: 1328px;
+          padding-left: 2rem;
+          padding-right: 2rem; 
+      }
+  
+      header .container-fluid .hero{
+          top: 44%;
+          padding: 0;
+      }
+  
+      header aside {
+          padding: 0px 0px 70px 0px;
+      }
+  
+      header aside form, footer aside form {
+          margin: 0px 0px 20px 0px;
+      }
+  
+      header aside .follow a, footer aside .follow a{
+          margin: 0px 0px 20px 25px;
+      }
+  
+      main {
+          padding: 160px 0px 0px 0px;
+      }
+  
+      section.about {
+          padding: 0px 0px 240px 0px;
+      }
+  
+      section.projects {
+          padding: 0px 0px 270px 0px;
+      }
+  
+      section.projects figure img {
+          margin: 0px 0px 60px 0px;
+      }
+  
+      section.perks {
+          padding: 0px 0px 200px 0px;
+      }
+  
+      section.perks .perks-item {
+          margin-bottom: 110px;
+      }
+  
+      section.perks .perks-item .perks-img {
+          margin: 0px 0px 40px 0px;
+      }
+  
+      footer {
+          padding: 0px 0px 80px 0px;
+      }
+  
+      footer h3 {
+          margin: 0px 0px 100px 0px;
+      }
+  
+      footer aside {
+          margin: 260px 0px 0px 0px;
+      }
+  
+  }
+  
+  @media only screen and (min-width: 86em) and (max-height: 54em) and (orientation:landscape) {
+      h1 {
+          font: normal 400 64px/77px "acta-display", serif;
+          margin: 0px 0px 80px 0px;
+      }
+  
+      header h6 {
+          font: normal 600 19px/19px 'Poppins', serif;
+          margin: 0px 0px 30px 0px;
+      }
+  
+      header .container-fluid .hero{
+          top: 41.5%;
+          padding: 0;
+      }
+  
+      header aside {
+          padding: 0px 0px 60px 0px;
+      }
+  
+      main {
+          padding: 130px 0px 0px 0px;
+      }
+  
+      section.about {
+          padding: 0px 0px 180px 0px;
+      }
+  
+      section.projects {
+          padding: 0px 0px 220px 0px;
+      }
+  
+      section.perks {
+          padding: 0px 0px 150px 0px;
+      }
+  
+      section.perks .perks-item {
+          margin-bottom: 100px;
+      }
+  
+      footer {
+          padding: 0px 0px 60px 0px;
+      }
+  
+      footer aside {
+          margin: 200px 0px 0px 0px;
+      }
+  }
+  
+  
+  
+  
