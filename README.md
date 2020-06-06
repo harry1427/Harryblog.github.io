@@ -1,40 +1,39 @@
 # 個人網頁製作紀錄
 
-我的個人網頁是下載網路上免費的 templete 去做修(下載的 template 是https://colorlib.com/wp/template/ronaldo/)
-原先我是想自己製作一個特人網頁，不過要從零開始時在有些困難，且我對個人網頁要如何排版，一直沒有一個明確的想法，只知道自己想在網頁中加入什麼元素，所以在交作業的最後關頭改使用模板去修改，而自己做的網頁依然會當作未完成的作品放在這個網頁中(在過程中我有大致記錄我看過那些教學影片合作過什麼樣的練習，檔案放在網站連結中。)
+## 介紹
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+&emsp;&emsp;我的個人網頁是下載網路上免費的 templete 去做修(下載的 template 是<https://colorlib.com/wp/template/ronaldo/>)
 
-## Markdown
+註：原先我是想自己製作一個特人網頁，不過要從零開始時在有些困難，且我對個人網頁要如何排版，一直沒有一個明確的想法，只知道自己想在網頁中加入什麼元素，所以在交作業的最後關頭改使用模板去修改，而自己做的網頁依然會當作未完成的作品放在這個網頁中(在過程中我有大致記錄我看過那些教學影片合作過什麼樣的練習，檔案放在網站連結中。)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+&emsp;&emsp;首先，我將原始模板中的 blog、services 部分刪除。雖然在製作網頁前很想要有個 blog 的功能，不過我在思考過後，希望可以不只有這個網頁當作介紹自己的平台，所以選擇先在 medium 中練習寫一些文章，等到慢慢累積到一個數量，再將它們放入我自己製作的個人網頁，而不是這份網頁中。這樣別人就可以先在其他網站上認識我，且有一些時間慢慢完成自己的網頁。
 
-```markdown
-Syntax highlighted code block
+## 修改/增加部分
 
-# Header 1
+&emsp;&emsp;挑選好模板後，我才發現，這燜模板，並不如想像中完美，有些部分在我的設計中會出差錯，所以我作了以下修改。
 
-## Header 2
+1. 在 About 中加入 Introducation 的文字描述。
+   原因是我認為這些文字對我而言是最好的標籤，在我還沒有學術研究結果前，我希望別人不是把我看做一個只會物理的的理科人，而是有更多故事的人。
+2. footer 中聯絡資訊在按下後會有超連結。
 
-### Header 3
+-   電話可以接撥出
+-   信件可以直接撰寫
+-   地圖會跳出另一個視窗顯示。
 
--   Bulleted
--   List
+3. contact me 的區塊中可以直接撰寫信件內容。
+   Send message 的按鈕無實際功能，即使在表格中填入任何訊息也不會將它紀錄下來，或者傳送到寄件的畫面。所以我自己寫了個 js，使按下按鈕後有現在的功能。
+4. 在 ressume 中加入照片點綴
+5. 在 project 中加入自己正在製作的個人網頁[個人網頁](url)
 
-1. Numbered
-2. List
+## 還未解決的問題
 
-**Bold** and _Italic_ and `Code` text
+&emsp;&emsp;這個模板的 RWD 做的不是很好，有些地方會出現問題。
+如：
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/harry1427/harry1427.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. 調整網頁大小(在手機模式時)時，home 中的菱形筐會擋到後面的文字
+   [問題一](/images/problem/1.png)
+2. 用手機瀏覽的話，沒有個人照
+   [問題二](/images/problem/2.png)
+3. 用手機瀏覽時，email 字型大小看起來太大
+   [問題三](/images/problem/3.jpg)
+4. 沒有 RWD 的功能
