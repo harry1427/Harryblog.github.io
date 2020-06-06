@@ -1,6 +1,7 @@
 ## 個人網頁製作紀錄
 
-You can use the [editor on GitHub](https://github.com/harry1427/harry1427.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+我的個人網頁是下載網路上免費的templete去做修(下載的template是https://colorlib.com/wp/template/ronaldo/)
+    原先我是想自己製作一個特人網頁，不過要從零開始時在有些困難，且我對個人網頁要如何排版，一直沒有一個明確的想法，只知道自己想在網頁中加入什麼元素，所以在交作業的最後關頭改使用模板去修改，而自己做的網頁依然會當作未完成的作品放在這個網頁中(在過程中我有大致記錄我看過那些教學影片合作過什麼樣的練習，檔案放在網站連結中。)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
